@@ -5,5 +5,11 @@
   <a href="/add-post">
     <button class="btn">Add New Post</button>
   </a>
+  <% for(let post of posts) { %>
+  <div class="post-container">
+    <h4><%= post.title %></h4>
+    <a href="/post/<%= post._id %>" class="see-btn">See more</a>
+  </div>
+  <% } %>
 </div>
 <%- include("./includes/foot") %>

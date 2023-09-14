@@ -46,3 +46,21 @@ input {
     display: block;
     cursor: pointer;
 }
+.post-container {
+    width: 40%;
+    margin: 30px auto;
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.see-btn {
+    background: rgb(39, 39, 39);
+    color: white;
+    padding: 10px 20px;
+    border: 0;
+    margin-left: auto;
+    display: block;
+    cursor: pointer;
+}

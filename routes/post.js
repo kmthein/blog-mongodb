@@ -8,4 +8,6 @@ router.get('/', postController.renderHomePage);
 
 router.get('/add-post', postController.renderCreatePost);
 
+router.get('/post/:postId', postController.getPost);
+
 module.exports = router;
